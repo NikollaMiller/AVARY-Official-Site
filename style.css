@@ -1,0 +1,93 @@
+*
+		{
+			margin: 0 auto;
+			padding: 0px;		
+			font-family: 'Permanent Marker', cursive;
+			text-shadow: 2px 2px 0px black;	
+			color: white;
+			text-align: center;
+		}
+		body
+		{
+			background-color: #0a0a0a;
+		}
+		.container
+		{
+			max-width: 1920px;		
+			height: 1080px;	
+		}
+		#navka ul li
+		{
+			color: #ff1c4a;
+			display: inline-block;
+			font-size: 2em;
+
+		}
+		#navka ul
+		{
+			margin: 0 auto;
+			padding: 0px;
+		}
+		nav 
+		{
+			top: 0;
+			margin: 0 auto;
+		}
+		#navka
+		{
+			position: fixed;
+			justify-content: flex-end;
+			width: 100%;
+			margin: 0 auto;
+			background-color: #0a0a0a;
+			word-spacing: 10em;
+			padding: 0px;
+			padding-top: 10px;
+			height: 55px;
+			transition: .3s;
+			color: white;
+		}
+		#navka ul li a:hover
+		{
+			color: white;
+		}
+		#navka ul li a
+		{
+			color: #ff1c4a;
+			font-weight: 1000;
+			text-transform: uppercase;
+			text-decoration: none;
+			transition: .3s;
+		}
+		#navka ul li a::after
+		{
+			content: '';
+			display: block;
+			width: 0;
+			height: 3px;
+			background: white;
+			transition: width .3s;
+		}
+		#navka:hover
+		{
+			background-color: #ff1c4a;
+		}
+		#navka ul
+		{
+			width: 100%;
+			height: 100%;
+		}
+		#navka ul li a:hover::after
+		{
+			width: 100%;
+		}
+		#fd
+		{
+			position: fixed;
+			box-shadow: 0px 0px 10000px 1px white;
+			border-radius: 10px;
+			left: 0;
+			width: 60px;
+			z-index: -10;
+			height: 60px;
+		}
